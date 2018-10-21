@@ -9,7 +9,6 @@
     "build": "webpack",
     "dev-server": "webpack-dev-server",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
